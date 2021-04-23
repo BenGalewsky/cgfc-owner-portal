@@ -6,7 +6,7 @@ Dynamo db. The primary key of this table is the owner ID
 """
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('cgfc_owners')
-with open('Active Owner Report as of 08.27.20.csv', mode='r', encoding='utf-8-sig') as csv_file:
+with open('ActiveOwners04.19.21.csv', mode='r', encoding='utf-8-sig') as csv_file:
     csv_reader = csv.DictReader(csv_file)
 
     for owner in csv_reader:

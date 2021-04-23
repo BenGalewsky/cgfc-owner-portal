@@ -1,0 +1,22 @@
+h1 {
+    background: #D4CF47 !important;
+    color: #FFFFFF;
+    font-family: "jubilat", georgia, serif;
+    margin: 0;
+    padding-bottom: 0.3em;
+    padding-left: 1.1em;
+    padding-top: 0.3em;
+    text-transform: uppercase;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    line-height: 100%;
+    letter-spacing: 1px;
+}
+h3{
+    font-family: "league-gothic", "Helvetica Neue", helvetica, sans-serif;
+    color: #AC2A28;
+    font-size: 1.3em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
